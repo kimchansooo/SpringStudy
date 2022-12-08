@@ -1,0 +1,25 @@
+package com.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.model.Photo;
+
+@Controller
+@RequestMapping("/image/upload.do")
+public class ImageController {
+	
+	@GetMapping
+	public String form() {
+		return "image/image"; //뷰를 보여주자
+	}
+	
+	@PostMapping
+	public String submit(Photo photo , HttpServletRequest request) {
+		return null;
+	}
+}

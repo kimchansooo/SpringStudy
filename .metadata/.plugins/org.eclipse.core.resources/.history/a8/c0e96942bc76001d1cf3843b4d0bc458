@@ -1,0 +1,18 @@
+package ncontroller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import dao.NoticeDao;
+
+@Controller
+public class CustomerController {
+	
+	private NoticeDao noticedao;
+
+	@Autowired
+	public void setNoticsdao(NoticeDao noticedao) {
+		this.noticedao = noticedao;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package DI_04_Spring;
+
+public class HelloApp {
+	//java코드
+	MessageBeanImpl messagebean = new MessageBeanImpl("hong");
+	messagebean.setGreeting("hello");
+	messagebean.sayHello();
+}

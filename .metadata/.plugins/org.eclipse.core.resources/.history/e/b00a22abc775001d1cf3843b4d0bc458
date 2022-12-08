@@ -1,0 +1,8 @@
+package DI_Annotation_04;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ConfigContext {
+
+}

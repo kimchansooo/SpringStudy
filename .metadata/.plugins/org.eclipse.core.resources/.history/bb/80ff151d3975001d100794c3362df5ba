@@ -1,0 +1,5 @@
+package java_lombok;
+
+public class Emp {
+
+}

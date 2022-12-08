@@ -1,0 +1,7 @@
+package DI_08_Spring;
+
+public class JobExecute {
+	public JobExecute(String first , int second) {
+		System.out.println("String , int");
+	}
+}
