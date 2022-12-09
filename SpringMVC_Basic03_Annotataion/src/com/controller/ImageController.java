@@ -33,7 +33,6 @@ public class ImageController {
          >> photo.setAge(20);
          >> photo.setImage() >> 자동 주입 안되요 >> 수동으로 >> 가공 CommonsMultipartFile 추출(이름)
          >> photo.setFile(CommonsMultipartFile file) 파일 자동으로 들어와요
-         
        */
       System.out.println(photo.toString());
       

@@ -175,3 +175,9 @@
 127.0.0.1 - - [08/Dec/2022:17:46:02 +0900] "GET / HTTP/1.1" 404 807
 0:0:0:0:0:0:0:1 - - [08/Dec/2022:17:46:09 +0900] "GET /SpringMVC_Basic03_Annotataion/image/upload.do HTTP/1.1" 200 375
 0:0:0:0:0:0:0:1 - - [08/Dec/2022:17:46:14 +0900] "POST /SpringMVC_Basic03_Annotataion/image/upload.do HTTP/1.1" 200 375
+127.0.0.1 - - [08/Dec/2022:20:05:14 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [08/Dec/2022:20:05:19 +0900] "GET /SpringMVC_Basic01_Controller/Index.jsp HTTP/1.1" 200 322
+0:0:0:0:0:0:0:1 - - [08/Dec/2022:20:05:19 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [08/Dec/2022:20:05:22 +0900] "GET /SpringMVC_Basic01_Controller/hello.do HTTP/1.1" 200 161
+0:0:0:0:0:0:0:1 - - [08/Dec/2022:20:05:28 +0900] "GET /SpringMVC_Basic01_Controller/intro.do HTTP/1.1" 200 157
+0:0:0:0:0:0:0:1 - - [08/Dec/2022:20:05:32 +0900] "GET /SpringMVC_Basic01_Controller/index.action HTTP/1.1" 404 852

@@ -109,12 +109,17 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Spring\Labs\SpringMVC_Basic02_WebSite"/>
+			<item value="C:\Spring\Labs\SpringLabs\SpringDI_Basic05_Prototype"/>
+			<item value="C:\Spring\Labs\SpringLabs\SpringDI_Basic04_Bean_LifeCycle"/>
 			<item value="C:\Users\KOSA\Downloads\Sample (2)\SpringDAO_Basic4"/>
 			<item value="C:\Users\KOSA\Downloads\Sample (2)\SpringDAO_Basic1"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
-			<item value="C:\Spring\Labs\SpringDI_Basic01\src\DI_설명.txt"/>
+			<item value="C:\Spring\Labs\SpringMVC_Basic01_Controller\WebContent\WEB-INF\spring-servlet.xml"/>
 			<item value=""/>
+			<item value="C:\Spring\Labs\SpringDI_Basic03_Annotation\src\DI_Annotation_04\추가설명.txt"/>
+			<item value="C:\Spring\Labs\SpringDI_Basic01\src\DI_설명.txt"/>
 		</list>
 	</section>
 	<section name="CleanDialogSettings">

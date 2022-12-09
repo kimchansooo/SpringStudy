@@ -28,5 +28,10 @@ IOC 컨테이너에 적재될 bean 객체 생성과 injection (DI)
 <context:annotation-config />
 <context:component-scan base-package="ncontroller"  />
 <!-- 모든 컨트롤러가 공통 사용 DAO 빈 객체  참조-->
+
+<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+   <property name="maxUploadSize" value="1048760"></property>
+   <property name="defaultEncoding" value="UTF-8"></property>
+</bean>
 <bean   class="dao.NoticeDao"   />
 </beans> 

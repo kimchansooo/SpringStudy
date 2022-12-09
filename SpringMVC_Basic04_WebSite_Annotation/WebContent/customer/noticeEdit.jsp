@@ -77,14 +77,14 @@
 							공지사항수정
 						</li>
 					</ul>
-					<form action="" method="post">
+					<form action="noticeEdit.htm" method="post"  enctype="multipart/form-data">
 					<div id="notice-article-detail" class="article-detail margin-large" >						
 						<dl class="article-detail-row">
 							<dt class="article-detail-title">
 								제목
 							</dt>
 							<dd class="article-detail-data">
-								&nbsp;<input name="title" value="제 1회 경진대회 " />
+								&nbsp;<input name="title" value="${notice.title}" /><input type="hidden" name="seq" value="${notice.seq}"/>
 							</dd>
 						</dl>	
 						<dl class="article-detail-row half-row">
@@ -92,7 +92,7 @@
 								작성자
 							</dt>
 							<dd class="article-detail-data half-data" >
-								코스타
+								${notice.writer}
 							</dd>
 						</dl>
 						<dl class="article-detail-row half-row">
@@ -100,7 +100,7 @@
 								조회수
 							</dt>
 							<dd class="article-detail-data half-data">
-								1235
+								${notice.hit}
 							</dd>
 						</dl>
 						<dl class="article-detail-row">
@@ -109,6 +109,7 @@
 							</dt>
 							<dd class="article-detail-data">
 								&nbsp;<input type="file" id="txtFile" name="file" />
+								          ${notice.fileSrc}
 							</dd>
 						</dl>
 
@@ -118,8 +119,9 @@
 						</div>						
 					</div>
 					<p class="article-comment margin-small">
-						<a class="btn-save button" href="noticeEditProc.jsp">수정</a>
-						<a class="btn-cancel button" href="noticeDetail.jsp">취소</a>						
+						<!-- <a class="btn-edit button" href="noticeEdit.jsp">수정</a> -->
+						<input type="submit"   value="수정"  class="btn-save button" />
+						<a class="btn-del button" href="noticeDetail.htm?seq=${notice.seq}">취소</a>						
 					</p>		
 					</form>					
 				</div>				
