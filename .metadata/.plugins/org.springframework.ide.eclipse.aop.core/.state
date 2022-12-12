@@ -2,4 +2,5 @@
 <aop-reference-model>
 <aop-project name="SpringMVC_Basic01_Controller"/>
 <aop-project name="Sample"/>
+<aop-project name="BoardProject"/>
 </aop-reference-model>

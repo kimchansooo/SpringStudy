@@ -1,4 +1,5 @@
 #Tomcat publish data
-#Fri Dec 09 15:54:17 KST 2022
+#Mon Dec 12 18:17:05 KST 2022
 org.eclipse.jst.jee.server\:/binary\:C\:\\Spring\\Labs\\SpringMVC_Basic04_WebSite_Annotation\\WebContent\\WEB-INF\\lib\\spring-web-5.3.6.jar=WEB-INF/lib/spring-web-5.3.6.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Spring\\Labs\\SpringMVC_Basic03_Annotataion\\WebContent\\WEB-INF\\lib\\spring-web-5.3.6.jar=WEB-INF/lib/spring-web-5.3.6.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Spring\\Labs\\SpringMVC_Basic07_WebSite_Annotation_Jdbc_Template_Include\\WebContent\\WEB-INF\\lib\\spring-web-5.3.6.jar=WEB-INF/lib/spring-web-5.3.6.jar
