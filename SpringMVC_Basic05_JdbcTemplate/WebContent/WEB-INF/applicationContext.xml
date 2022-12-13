@@ -33,6 +33,7 @@
  
  
  <!-- 공통 UI  -->
+ <!-- Viewresolver -->
  <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
  		<property name="prefix">
  			<value>/WEB-INF/view/</value>

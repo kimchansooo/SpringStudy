@@ -202,3 +202,24 @@
 12월 12, 2022 18:04:41.46 [36876:50024:1212/180441.451:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
 12월 12, 2022 18:08:00.66 [36876:48872:1212/180800.610:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
 12월 12, 2022 18:08:00.71 [36876:48872:1212/180800.698:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+
+12월 13, 2022 14:46:15.82 NEW SESSION
+12월 13, 2022 14:46:15.82 [9256:10624:1213/144615.814:ERROR:device_event_log_impl.cc(215)] [14:46:15.814] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 14:46:15.84 [9256:10624:1213/144615.814:ERROR:device_event_log_impl.cc(215)] [14:46:15.814] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:24:12.82 [47172:46528:1213/152412.820:ERROR:device_event_log_impl.cc(215)] [15:24:12.820] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:24:12.84 [47172:46528:1213/152412.820:ERROR:device_event_log_impl.cc(215)] [15:24:12.820] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:28:35.44 [19904:21592:1213/152835.431:ERROR:device_event_log_impl.cc(215)] [15:28:35.432] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:28:35.45 [19904:21592:1213/152835.431:ERROR:device_event_log_impl.cc(215)] [15:28:35.432] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:29:44.37 [45696:48640:1213/152944.358:ERROR:device_event_log_impl.cc(215)] [15:29:44.358] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:29:44.38 [45696:48640:1213/152944.358:ERROR:device_event_log_impl.cc(215)] [15:29:44.359] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:30:38.00 [45696:47668:1213/153037.991:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 13, 2022 15:37:16.82 [28128:45212:1213/153716.808:ERROR:device_event_log_impl.cc(215)] [15:37:16.808] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:37:16.83 [28128:45212:1213/153716.808:ERROR:device_event_log_impl.cc(215)] [15:37:16.808] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 15:38:11.91 [28128:44824:1213/153811.907:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 13, 2022 16:04:22.12 [28128:21440:1213/160421.439:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 13, 2022 16:06:14.12 [28128:21440:1213/160614.119:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 13, 2022 16:19:23.38 [28128:21440:1213/161923.372:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 13, 2022 16:19:43.25 [28128:21440:1213/161943.243:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 13, 2022 16:47:14.37 [15572:43488:1213/164714.368:ERROR:device_event_log_impl.cc(215)] [16:47:14.368] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 16:47:14.38 [15572:43488:1213/164714.369:ERROR:device_event_log_impl.cc(215)] [16:47:14.369] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 13, 2022 16:48:06.37 [15572:49320:1213/164806.358:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
