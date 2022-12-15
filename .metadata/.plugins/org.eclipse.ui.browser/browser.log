@@ -223,3 +223,61 @@
 12월 13, 2022 16:47:14.37 [15572:43488:1213/164714.368:ERROR:device_event_log_impl.cc(215)] [16:47:14.368] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
 12월 13, 2022 16:47:14.38 [15572:43488:1213/164714.369:ERROR:device_event_log_impl.cc(215)] [16:47:14.369] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
 12월 13, 2022 16:48:06.37 [15572:49320:1213/164806.358:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+12월 15, 2022 09:40:54.29 NEW SESSION
+12월 15, 2022 09:40:54.29 [22132:20144:1215/094054.286:ERROR:device_event_log_impl.cc(215)] [09:40:54.286] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:40:54.29 [22132:20144:1215/094054.287:ERROR:device_event_log_impl.cc(215)] [09:40:54.287] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:40:54.30 [22132:20144:1215/094054.287:ERROR:device_event_log_impl.cc(215)] [09:40:54.287] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:41:51.80 [22132:12184:1215/094151.799:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 15, 2022 09:43:16.74 [1688:21244:1215/094316.737:ERROR:device_event_log_impl.cc(215)] [09:43:16.737] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:43:16.75 [1688:21244:1215/094316.737:ERROR:device_event_log_impl.cc(215)] [09:43:16.737] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:43:16.75 [1688:21244:1215/094316.737:ERROR:device_event_log_impl.cc(215)] [09:43:16.737] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:46:45.87 [16324:21432:1215/094645.867:ERROR:device_event_log_impl.cc(215)] [09:46:45.867] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:46:45.88 [16324:21432:1215/094645.867:ERROR:device_event_log_impl.cc(215)] [09:46:45.867] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:46:45.88 [16324:21432:1215/094645.867:ERROR:device_event_log_impl.cc(215)] [09:46:45.867] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:47:38.39 [16324:20500:1215/094738.385:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 15, 2022 09:48:41.42 [7172:21548:1215/094841.419:ERROR:device_event_log_impl.cc(215)] [09:48:41.419] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:48:41.43 [7172:21548:1215/094841.419:ERROR:device_event_log_impl.cc(215)] [09:48:41.419] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 09:48:41.44 [7172:21548:1215/094841.419:ERROR:device_event_log_impl.cc(215)] [09:48:41.419] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 10:49:25.63 [14608:22240:1215/104925.631:ERROR:device_event_log_impl.cc(215)] [10:49:25.631] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 10:49:25.64 [14608:22240:1215/104925.631:ERROR:device_event_log_impl.cc(215)] [10:49:25.631] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 10:49:25.65 [14608:22240:1215/104925.631:ERROR:device_event_log_impl.cc(215)] [10:49:25.631] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 11:05:56.17 [14596:9820:1215/110556.166:ERROR:device_event_log_impl.cc(215)] [11:05:56.166] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 11:05:56.18 [14596:9820:1215/110556.166:ERROR:device_event_log_impl.cc(215)] [11:05:56.166] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 11:05:56.19 [14596:9820:1215/110556.166:ERROR:device_event_log_impl.cc(215)] [11:05:56.166] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:06:45.64 [8588:18076:1215/120645.632:ERROR:device_event_log_impl.cc(215)] [12:06:45.633] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:06:45.64 [8588:18076:1215/120645.632:ERROR:device_event_log_impl.cc(215)] [12:06:45.633] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:06:45.65 [8588:18076:1215/120645.632:ERROR:device_event_log_impl.cc(215)] [12:06:45.633] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:07:34.63 [21132:16344:1215/120734.628:ERROR:device_event_log_impl.cc(215)] [12:07:34.628] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:07:34.64 [21132:16344:1215/120734.628:ERROR:device_event_log_impl.cc(215)] [12:07:34.628] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:07:34.65 [21132:16344:1215/120734.628:ERROR:device_event_log_impl.cc(215)] [12:07:34.628] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:12:25.69 [2352:7056:1215/121225.687:ERROR:device_event_log_impl.cc(215)] [12:12:25.687] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:12:25.70 [2352:7056:1215/121225.687:ERROR:device_event_log_impl.cc(215)] [12:12:25.687] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:12:25.71 [2352:7056:1215/121225.687:ERROR:device_event_log_impl.cc(215)] [12:12:25.687] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:13:36.93 [20852:11240:1215/121336.929:ERROR:device_event_log_impl.cc(215)] [12:13:36.929] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:13:36.94 [20852:11240:1215/121336.929:ERROR:device_event_log_impl.cc(215)] [12:13:36.929] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:13:36.95 [20852:11240:1215/121336.929:ERROR:device_event_log_impl.cc(215)] [12:13:36.929] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 12:14:32.09 [20852:14932:1215/121432.082:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 15, 2022 13:13:06.88 [20852:17104:1215/131306.842:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 13:13:06.97 [20852:17104:1215/131306.954:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 13:13:10.32 [20852:17104:1215/131310.321:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 14:13:16.43 [20852:17104:1215/141316.355:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 14:13:16.51 [20852:17104:1215/141316.499:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 14:51:40.09 [20852:17104:1215/145134.860:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 14:51:40.63 [20852:17104:1215/145140.628:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 15:13:26.47 [20852:17104:1215/151326.418:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 15:13:26.58 [20852:17104:1215/151326.562:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 16:13:36.93 [20852:17104:1215/161336.868:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 16:13:37.03 [20852:17104:1215/161337.015:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 16:35:31.94 [20852:17104:1215/161958.138:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 16:35:31.96 [20852:17104:1215/163531.877:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -7
+12월 15, 2022 17:13:46.41 [20852:17104:1215/171346.355:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 17:13:46.46 [20852:17104:1215/171346.442:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 17:14:32.11 [20852:23892:1215/171432.106:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 15, 2022 18:07:59.44 [20852:17104:1215/180757.192:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 18:49:30.76 [20852:17104:1215/180759.650:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -331
+12월 15, 2022 19:02:33.45 [20852:17104:1215/190232.500:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 19:02:33.50 [20852:17104:1215/190233.491:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -331
+12월 15, 2022 20:03:49.39 [20852:17104:1215/200349.386:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+12월 15, 2022 20:14:16.90 [20852:17104:1215/201416.866:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 15, 2022 20:14:16.99 [20852:17104:1215/201416.980:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105

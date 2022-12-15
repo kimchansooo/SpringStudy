@@ -156,7 +156,18 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>1.4</version>
-		</dependency>      
+		</dependency>  
+		<!-- Mybatis Spring 작업 --> 
+		<dependency>
+  			<groupId>org.mybatis</groupId>
+  			<artifactId>mybatis</artifactId>
+  			<version>3.5.3</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.mybatis</groupId>
+  			<artifactId>mybatis-spring</artifactId>
+  			<version>2.0.1</version>
+  		</dependency>   
 	</dependencies>
     <build>
         <plugins>

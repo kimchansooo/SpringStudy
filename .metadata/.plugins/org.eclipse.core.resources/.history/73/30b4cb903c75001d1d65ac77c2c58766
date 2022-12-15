@@ -1,7 +1,0 @@
-package java_lombok;
-
-@Data
-public class Emp {
-	private int empno;
-
-}
