@@ -76,10 +76,3 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	<!-- where name=kglim or eamil=kglim or home=kglim -->
 </mapper>
-
-
-
-
-
-
-
