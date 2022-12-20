@@ -109,6 +109,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Spring\Labs\SpringMVC_Basic13_Security_password"/>
+			<item value="C:\Spring\Labs\SpringMVC_Basic12_Security"/>
 			<item value="C:\Spring\Labs\Mybatis_Web_SpringBoard_07"/>
 			<item value="C:\Spring\Labs\Mybatis_Web_Mvc_06"/>
 			<item value="C:\Spring\Labs\MyBatis_Basic05"/>
