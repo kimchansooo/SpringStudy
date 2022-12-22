@@ -15,11 +15,11 @@ public class JoinService {
 	@Autowired
 	private SqlSession sqlsession;
 	
-	public int insertMember(Member member){
-		int result = 0;
+	public void insertMember(Member member){
+
 		MemberDao dao = sqlsession.getMapper(MemberDao.class);
-		result = dao.insertMember(member);
-		return result;
+		dao.insertMember(member);
+
 	}
 	
 	

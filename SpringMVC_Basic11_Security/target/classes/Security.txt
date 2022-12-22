@@ -246,7 +246,7 @@ http://localhost:8090/kosa_security/customer/noticeReg.htm
 
 ​
 2. login.jsp (스프링이 가지는 자동화 인증처리 하기 위해서 코드 변환)
-   - action='/SpringMVC_Basic03_WebSite_Security/login' 
+   - action='/SpringMVC_Basic03_WebSite_Security/login'   =>${pageContext.request.contextPath}/login
    -<input type='text' name='username' value=''>
    -<input type='password' name='password'/>
 

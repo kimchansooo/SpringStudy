@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--  
+[key point]
+Mybatis 사용 프로젝트 진행시
+
+1. mapper namespace 이름 : DAO 가지는 interface 이름을 그대로
+2. <select id="" 이름을  interface 가지는 함수명과 동일
+result : interface 와 mapper 있으면 실행
+
+//전체조회
+List<Dept> getDepts(int page, String field, String query) throws ClassNotFoundException, SQLException;
+
+//조건조회
+Dept getDept(int deptno) throws ClassNotFoundException, SQLException;
+
+//삽입
+int insert(Dept dept) throws ClassNotFoundException, SQLException;
+
+//수정
+int update(Dept dept) throws ClassNotFoundException, SQLException;
+
+//삭제
+int delete(Dept dept) throws ClassNotFoundException, SQLException;
+-->
+
+<mapper namespace="dao.DeptDao">
+	
+	<!--  
+	List<Dept> getDepts(int page, String field, String query)
+	
+	int page 	 >> param1
+	String field >> param2
+	String query >> param3
+	
+	int srow = 1 + (page-1)*5;
+	int erow = 5 + (page-1)*5; 
+	-->
+	<select id="getDepts" resultType="vo.Dept">
+		SELECT * FROM 
+			(SELECT ROWNUM as NUM, N.* 
+			FROM 
+				(SELECT * 
+				FROM dept 
+				WHERE ${param2} LIKE '%${param3}%' ORDER BY deptno asc
+				) N
+			)WHERE NUM BETWEEN 1 + (${param1}-1)*5 AND 5 + (${param1}-1)*5
+	</select>
+	
+	<!--  
+	Dept getDept(int deptno)
+	parameter 1개 생략 가능
+	-->
+	<select id="getDept" resultType="vo.Dept">
+		select deptno, dname, loc
+		from dept
+		where deptno = #{deptno}
+	</select>
+	
+	<!--  
+	int delete(Dept dept)
+	parameter 1개 생략 가능
+	-->
+	<delete id="delete">
+		DELETE dept WHERE deptno=#{deptno}
+	</delete>
+	
+	<!--  
+	int update(Dept dept)
+	게시물 수정
+	-->
+	<update id="update" parameterType="vo.Dept">
+		update dept
+		set dname=#{dname},
+			loc=#{loc}
+		where deptno=#{deptno}
+	</update>
+	
+	<!--  
+	int insert(Dept dept)
+	-->
+	<insert id="insert" parameterType="vo.Dept">
+		<selectKey order="BEFORE" keyProperty="deptno" resultType="int">
+			select max(to_number(deptno))+10 from notices
+		</selectKey>
+		insert into  DEPT(deptno, dname, loc) 
+		VALUES(#{deptno}, #{dname}, #{content}, #{loc})
+	</insert>
+</mapper>

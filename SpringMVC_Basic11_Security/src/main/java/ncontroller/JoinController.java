@@ -30,8 +30,7 @@ public class JoinController {
 		//  /WEB-INF/views/joinus/join.jsp
 				
 	}
-	
-	
+
 	
 	//POST 요청
 	@PostMapping("join.htm")

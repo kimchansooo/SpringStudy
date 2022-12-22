@@ -7,20 +7,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import dao.MemberDao;
+import service.JoinService;
 import vo.Member;
 
 @Controller
 @RequestMapping("/joinus/")
 public class JoinController {
 
-	//memberDao  의존
-	private MemberDao memberdao;
-	
+	//joinservice  의존
 	@Autowired
-	public void setMemberdao(MemberDao memberdao) {
-		this.memberdao = memberdao;
-	}
+	private JoinService joinservice;
+	
+	
+
 	
 	//GET 요청 
 	//join.jsp 화면처리
@@ -41,6 +40,7 @@ public class JoinController {
 	public String join(Member member) {
 		System.out.println(member.toString());
 		member.setPwd(this.bCryptPasswordEncoder.encode(member.getPwd()));
+		joinservice.insertMember(member);
 		try {
 		
 		} catch (Exception e) {

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="SpringMVC_Basic09_Maven_Mybatis_POOL_LOG"/>
+<aop-project name="SpringMVC_Basic18_Ajax_Rest"/>
+<aop-project name="SpringMVC_Basic14_Security_password"/>
+<aop-project name="SpringMVC_Basic17_Ajax"/>
+<aop-project name="SpringMVC_Basic16_Ajax"/>
+<aop-project name="SpringMVC_Basic08_Maven_Mybatis"/>
+<aop-project name="Emp_Spring_BootStrap_Mybatis_ajax_5Team_1"/>
 <aop-project name="SpringMVC_Basic13_Security_password">
 <aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="52" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#SpringMVC_Basic13_Security_password#src/main/webapp/WEB-INF/spring/root-context.xml#52" aspect-start-line-number="52" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/SpringMVC_Basic13_Security_password/src/main/webapp/WEB-INF/spring/root-context.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="true">
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringMVC_Basic13_Security_password|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:18|8:noticeService:18" bean-file="/SpringMVC_Basic13_Security_password/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="18" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringMVC_Basic13_Security_password/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=SpringMVC_Basic13_Security_password/C:\/Users\/KOSA\/.m2\/repository\/org\/springframework\/spring-tx\/4.2.5.RELEASE\/spring-tx-4.2.5.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=SpringMVC_Basic13_Security_password/src\/main\/java&lt;kr.co.test.service{NoticeService.java[NoticeService~noticeReg~QNotice;~QHttpServletRequest;" target-start-line="44"/>
@@ -9,13 +15,14 @@
 <aop-project name="SpringMVC_Basic01_Controller"/>
 <aop-project name="Sample"/>
 <aop-project name="SpringMVC_Basic11_Security"/>
-<aop-project name="SpringMVC_Basic08_Maven_Mybatis"/>
 <aop-project name="SpringMVC_Basic10_POOL_LOG_Trans">
 <aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="41" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#SpringMVC_Basic10_POOL_LOG_Trans#src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml#41" aspect-start-line-number="41" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/SpringMVC_Basic10_POOL_LOG_Trans/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringMVC_Basic10_POOL_LOG_Trans|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:8|8:customerService:8" bean-file="/SpringMVC_Basic10_POOL_LOG_Trans/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringMVC_Basic10_POOL_LOG_Trans/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=SpringMVC_Basic10_POOL_LOG_Trans/C:\/Users\/KOSA\/.m2\/repository\/org\/springframework\/spring-tx\/5.3.6\/spring-tx-5.3.6.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=SpringMVC_Basic10_POOL_LOG_Trans/src\/main\/java&lt;service{CustomerService.java[CustomerService~noticeReg~QNotice;~QHttpServletRequest;" target-start-line="85"/>
 </aspect-definition>
 </aop-project>
+<aop-project name="Team2_EMP"/>
 <aop-project name="BoardProject"/>
+<aop-project name="Emp_Spring_BootStrap_Mybatis_ajax_5Team"/>
 <aop-project name="SpringMVC_Basic12_Security"/>
 <aop-project name="Mybatis_Web_SpringBoard_07"/>
 </aop-reference-model>

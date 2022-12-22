@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--  
+[key point]
+Mybatis 사용 프로젝트 진행시
+
+1. mapper namespace 이름 : DAO 가지는 interface 이름을 그대로
+2. <select id="" 이름을  interface 가지는 함수명과 동일
+result : interface 와 mapper 있으면 실행
+
+//1. 전체검색
+public List<Emp> getEmpAllList(int page, String field, String query) throws ClassNotFoundException, SQLException;
+
+//2. 상세
+public Emp getEmp(int empno) throws ClassNotFoundException, SQLException;
+
+//3. 삽입
+public int insertEmp(Emp emp) throws ClassNotFoundException, SQLException;
+
+//4. 수정
+public int updateEmp(Emp emp) throws ClassNotFoundException, SQLException;
+
+//5. 삭제
+public int deleteEmp(int empno) throws ClassNotFoundException, SQLException;
+-->
+
+<mapper namespace="dao.empDao">
+	
+	<!--  
+	public List<Emp> getEmpAllList(int page, String field, String query)
+	
+	int page 	 >> param1
+	String field >> param2
+	String query >> param3
+	
+	int srow = 1 + (page-1)*5;
+	int erow = 5 + (page-1)*5; 
+	-->
+	<select id="getEmpAllList" resultType="vo.Emp">
+		SELECT * FROM 
+			(SELECT ROWNUM as NUM, N.* 
+			FROM 
+				(SELECT empno, ename, job, nvl(mgr,0)as mgr, to_char(hiredate) as hiredate, nvl(sal,0) as sal, nvl(comm,0) as comm, deptno
+				FROM emp 
+				WHERE ${param2} LIKE '%${param3}%' ORDER BY empno desc
+				) N
+			)WHERE NUM BETWEEN 1 + (${param1}-1)*10 AND 10 + (${param1}-1)*10
+	</select>
+	
+	<!--  
+	Emp getEmp(int empno)
+	parameter 1개 생략 가능
+	-->
+	<select id="getEmp" resultType="vo.Emp">
+		select empno, ename, job, nvl(mgr,0)as mgr, to_char(hiredate) as hiredate, nvl(sal,0) as sal, nvl(comm,0) as comm, deptno
+		from emp
+		where empno = #{empno}
+	</select>
+	
+	<!--  
+	int deleteEmp(int empno)
+	parameter 1개 생략 가능
+	-->
+	<delete id="deleteEmp">
+		DELETE emp WHERE empno=#{empno}
+	</delete>
+	
+	<!--  
+	int updateEmp(Emp emp)
+	게시물 수정
+	-->
+	<update id="updateEmp" parameterType="vo.Emp">
+		update emp
+		set ename=#{ename},
+			job=#{job},
+			mgr=#{mgr},
+			sal=#{sal},
+			comm=#{comm},
+			deptno=#{deptno}
+		where empno=#{empno}
+	</update>
+	
+	<!--  
+	int insertEmp(Emp emp)
+	-->
+	<insert id="insertEmp" parameterType="vo.Emp">
+		<selectKey order="BEFORE" keyProperty="empno" resultType="int">
+			select max(to_number(empno))+1 from emp
+		</selectKey>
+		insert into emp(empno, ename, job, mgr, hiredate, sal, comm, deptno) 
+		VALUES(#{empno}, #{ename}, #{job}, 0, sysdate, #{sal}, #{comm}, #{deptno})
+	</insert>
+</mapper>
